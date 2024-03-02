@@ -10,14 +10,15 @@ public class prime {
 		int num=s.nextInt();
 		
 		if (num<2) {
-		System.out.println(num+ "not a prime number");}
+		System.out.print(num+ "not a prime number");}
 		
 		else 
 		{
-			for (int i=2;i<=num/2;i++);
+			for (int j=2;j<=num/2;j++)
 			{
 		
-			if(num%i==0){
+		
+			if(num%j==0){
 				pnum=1;
 				break;
 				
